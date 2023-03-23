@@ -1,0 +1,114 @@
+/* Body Style */
+body {
+  font-family: "Lato", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.8;
+  font-weight: normal;
+  background: #f8f9fd;
+  color: gray;
+  background-image: url("../img/1.png");
+}
+/* Close Body Style */
+/* Calculator Style */
+#calculator {
+  box-shadow: 0 4px 8px -3px rgba(0, 0, 0, 0.3);
+}
+.bmi-label {
+  text-align: center;
+  font-weight: 100;
+}
+/* Calculator Style */
+/* Form Style */
+.form-label {
+  font-size: 18px;
+}
+.form-check-input {
+  font-size: 21px;
+}
+.form-check-input:checked {
+  background-color: #6cccf1;
+  border-color: #a89191;
+}
+.form-check-input:checked {
+  font-size: 20px;
+}
+/* close Form Style */
+/* Radio Button ID Wanita */
+#wanita {
+  margin-left: 8px;
+}
+/* Column */
+.col-lg-6 #result {
+  box-shadow: 10px 5px 5px grey;
+}
+.col-lg-5 #detail {
+  box-shadow: 10px 5px 5px grey;
+  margin-left: 10px;
+}
+/* Column */
+/* Button ID Submit */
+#submit {
+  border-radius: 20px;
+}
+/* Close Button ID Submit */
+/* Modal Pop Up */
+#modalText {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 100;
+  color: red;
+}
+/* Close Modal Pop Up */
+/* Card Style With ID */
+.card-body {
+  text-align: center;
+}
+#text {
+  font-size: 18px;
+}
+#text2 {
+  font-size: 18px;
+}
+#penjelasan {
+  font-size: 20px;
+  font-weight: 100;
+}
+#hasil {
+  font-size: 24px;
+}
+/* Close Card Style With ID */
+/* Input Type Number Change */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Close Input Type Number Change */
+/* Button Css */
+.btn {
+  border-color: #f8f9fd;
+  background-color: #6cccf1;
+  transition-duration: 0.4s;
+  font-size: 16px;
+  font-weight: 100;
+  padding: 10px 18px;
+  color: white;
+}
+.btn:hover {
+  background-color: #2f7bdd;
+  color: black;
+}
+/* Close Button Css */
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
